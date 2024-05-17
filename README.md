@@ -1,2 +1,2 @@
 This CV is based on the [modern-resume-theme](https://github.com/sproogen/modern-resume-theme/tree/master?tab=readme-ov-file) template
-by [James Grant](https://github.com/tibuch).
+by [Tim-Oliver Buchholz](https://github.com/tibuch).
