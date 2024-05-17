@@ -78,91 +78,43 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Machine Learning Expert
+        title: Master’s Thesis Internship
         link: https://www.fmi.ch/platforms/platform.html?plt=110
-        link_text: Friedrich Miescher Institute for Biomedical Research
+        link_text: Human Technopole, Milan, Italy
         sub_title: Facility for Advanced Imaging and Microscopy
-        caption: July 2021 - Present
+        caption: Jan 2024 - July 2024
         description: | # this will include new lines to allow paragraphs
-          In my role as Machine Learning Expert in the Facility for Advanced Imaging and Microscopy I work together with
-          our research groups to develop and implement state of the art image processing and analysis pipelines. The projects I 
-          work on are a diverse mix, ranging from small scale image analysis tasks to processing of terabyte sized imaging
-          datasets. I also educate our users in the best practices of FAIR image processing and analysis.
+          Worked on Master’s Thesis project on Image Reconstruction using sequential 2D Fourier representation of images. 
+          Extended methodology with SSMs like Mamba, explored novel token encoding, and hybridized architectures.
+          Achieved faster inference times and reduced GPU memory requirements than existing Attention based model
       - layout: left
-        title: Doctoral Researcher
-        caption: 2017 - 2021
-        sub_title: Center for Systems Biology Dresden
+        title: Research Intern
+        caption: May 2022 - July 2022
+        sub_title: Institut Pasteur, Paris, France
         description: | # this will include new lines to allow paragraphs
-          Next to researching novel approaches for image restoration, it was always a passion of mine to make our 
-          research outputs accessible to the wider non-computer scientist community. Making state of the art technology 
-          available to researchers without a computer science background is a challenge I enjoy.
+          Quantified Cortical tension in brain cells of fruit flies using microscopy and computational techniques.
+          Developed end-to-end Jupyter notebook to segment cells and process  the 4D stacks to track ablated cell membrane
+          Research paper is in the works and to be submitted imminently**
       - layout: left
-        title: Student Assistant
-        sub_title: Junior Programmer
-        caption: 2014 - 2017
+        title: Biomedical Data Science Intern
+        sub_title: LifeSignals India Pvt. Ltd., Bangalore, India
+        caption: Jan 2022 - Feb 2023
         description: | # this will include new lines to allow paragraphs
-          During my bachelor and master studies I worked as student assistant at the Chair for Bioinformatics and 
-          Information Mining. During this time I developed KNIME workflows and plugins for image processing and
-          analysis. As part of my work I also contributed to ImageJ and Fiji, two widely used image processing tools in
-          the life sciences.
+        Predicted Blood Pressure from real-world ECG and PPG data acquired from the company's wearable product.
+        Clustered patients together based on demographics, disorders, medication and signal data features for modelling BP.
+        Developed end-to-end pipeline for data-scraping, preprocessing, model training and generation of reports.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Technische Universität Dresden
-        caption: 2017 - 2021
-        sub_title: Dr. rer. nat., Computer Science
+        title: Indian Institute of Technology (BHU), Varanasi
+        caption: 2019 - 2024
+        sub_title: Integrated Dual Degree (B.Tech + M.Tech), Biomedical Engineering
         description: | # this will include new lines to allow paragraphs
-          I developed novel machine learning methods for image restoration in the field of biomedical image analysis.
-          As a member of the IMPRS-CellDevoSys school, hosted at the Max Planck Institute of Molecular Cell Biology and 
-          Genetics (MPI-CBG) in collaboration with the Technische Universität Dresden (TUD), I was part of a vibrant 
-          and interdisciplinary research community. I worked together with researchers from biology, chemistry, 
-          physics and computer science.
-      - layout: left
-        title: Universität Konstanz
-        caption: 2016 - 2017
-        sub_title: M. Sc., Computer Science
-        description: | # this will include new lines to allow paragraphs
-          After completing my four year bachelor studies in computer science at the University of Konstanz I enrolled in
-          the one year master program. During my master studies I focused on the basics of computer vision and image 
-          processing.  
-
-  - title: Selected Publications
-    layout: list
-    content:
-      - layout: left
-        title: N2V2
-        link: https://arxiv.org/abs/2211.08512
-        caption: 2022
-        description: |
-          ## N2V2 - Fixing Noise2Void Checkerboard Artifacts with Modified Sampling Strategies and a Tweaked Network Architecture
-          __E Höck\*, TO Buchholz\*, A Brachmann, F Jug, A Freytag__
-          
-          Noise2Void 2 (N2V2) fixes the checkerboard artifacts that are present in some Noise2Void (N2V) denoised images.
-
-      - layout: left
-        title: cryoCARE
-        link: https://arxiv.org/abs/1810.05420
-        caption: 2019
-        description: |
-          ## cryoCARE - Content-Aware Image Restoration for Cryo-Transmission Electron Microscopy Data
-          __TO Buchholz, M Jordan, G Pigino, F Jug__
-          
-          Even highest quality cryo-EM data is inherently noisy and suffers from low contrast. With cryoCARE we present 
-          a deep learning-based approach to denoise and improve contrast in cryo-EM data.
-
-      - layout: left
-        title: Noise2Void
-        link: https://arxiv.org/abs/1811.10980
-        caption: 2019
-        description: |
-          ## Noise2Void - Learning Denoising from Single Noisy Images
-          __A Krull\*, TO Buchholz\*, F Jug__
-          
-          Noise2Void is a self-supervised image denoising method based on deep learning. It does not require clean 
-          ground truth data for training, instead it can be trained on single noisy images only.
-  
+          I am currently enrolled in the integrated dual degree program at the Indian Institute of Technology (BHU), 
+          Varanasi. The program combines a bachelor and master degree in biomedical engineering. During my studies I 
+          focused on Machine Learning and Artificial Intelligence in the context of biomedical imaging.
 
   - title: Teaching & Extracurricular Activities
     layout: text
