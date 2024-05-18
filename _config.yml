@@ -54,7 +54,7 @@ content:
             url: https://github.com/fmi-faim/ipa-project-template
         quote: >
           | OpenCV,PyTorch,CNN,YOLOv6 | 
-        description: | # this will include new lines to allow paragraphs
+        description: # this will include new lines to allow paragraphs
           • Built a complete system to extract registration numbers of vehicles from unconstrained real-world images.
           \n• Applied YOLOv6 for plate detection, contours-based character segmentation, and CNNs for classification
           \n• Handled noise removal, histogram equalization, and perspective transform to resolve image irregularities
