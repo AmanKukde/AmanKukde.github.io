@@ -79,9 +79,9 @@ content:
     content:
       - layout: left
         title: Master’s Thesis Internship
-        link: https://www.fmi.ch/platforms/platform.html?plt=110
-        link_text: Human Technopole, Milan, Italy
-        sub_title: Facility for Advanced Imaging and Microscopy
+        link: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://humantechnopole.it/en/research-groups/jug-group/&ved=2ahUKEwj_isu2opiGAxU7h_0HHfVfBDQQFnoECA0QAQ&usg=AOvVaw2lnOkZh76YH7S9EPexzaTJ
+        link_text: Supervisor: Dr. Florian Jug
+        sub_title: Human Technopole, Milan, Italy
         caption: Jan 2024 - July 2024
         description: | # this will include new lines to allow paragraphs
           Worked on Master’s Thesis project on Image Reconstruction using sequential 2D Fourier representation of images. 
@@ -91,6 +91,8 @@ content:
         title: Research Intern
         caption: May 2022 - July 2022
         sub_title: Institut Pasteur, Paris, France
+        link: http://www.speder-lab.com
+        link_text: Supervisor: Dr. Pauline Spéder
         description: | # this will include new lines to allow paragraphs
           Quantified Cortical tension in brain cells of fruit flies using microscopy and computational techniques.
           Developed end-to-end Jupyter notebook to segment cells and process  the 4D stacks to track ablated cell membrane
