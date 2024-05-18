@@ -126,40 +126,40 @@ content:
           the one year master program. During my master studies I focused on the basics of computer vision and image 
           processing.  
 
-  - title: Selected Publications
-    layout: list
-    content:
-      - layout: left
-        title: N2V2
-        link: https://arxiv.org/abs/2211.08512
-        caption: 2022
-        description: |
-          ## N2V2 - Fixing Noise2Void Checkerboard Artifacts with Modified Sampling Strategies and a Tweaked Network Architecture
-          __E Höck\*, TO Buchholz\*, A Brachmann, F Jug, A Freytag__
+  # - title: Selected Publications
+  #   layout: list
+  #   content:
+  #     - layout: left
+  #       title: N2V2
+  #       link: https://arxiv.org/abs/2211.08512
+  #       caption: 2022
+  #       description: |
+  #         ## N2V2 - Fixing Noise2Void Checkerboard Artifacts with Modified Sampling Strategies and a Tweaked Network Architecture
+  #         __E Höck\*, TO Buchholz\*, A Brachmann, F Jug, A Freytag__
           
-          Noise2Void 2 (N2V2) fixes the checkerboard artifacts that are present in some Noise2Void (N2V) denoised images.
+  #         Noise2Void 2 (N2V2) fixes the checkerboard artifacts that are present in some Noise2Void (N2V) denoised images.
 
-      - layout: left
-        title: cryoCARE
-        link: https://arxiv.org/abs/1810.05420
-        caption: 2019
-        description: |
-          ## cryoCARE - Content-Aware Image Restoration for Cryo-Transmission Electron Microscopy Data
-          __TO Buchholz, M Jordan, G Pigino, F Jug__
+  #     - layout: left
+  #       title: cryoCARE
+  #       link: https://arxiv.org/abs/1810.05420
+  #       caption: 2019
+  #       description: |
+  #         ## cryoCARE - Content-Aware Image Restoration for Cryo-Transmission Electron Microscopy Data
+  #         __TO Buchholz, M Jordan, G Pigino, F Jug__
           
-          Even highest quality cryo-EM data is inherently noisy and suffers from low contrast. With cryoCARE we present 
-          a deep learning-based approach to denoise and improve contrast in cryo-EM data.
+  #         Even highest quality cryo-EM data is inherently noisy and suffers from low contrast. With cryoCARE we present 
+  #         a deep learning-based approach to denoise and improve contrast in cryo-EM data.
 
-      - layout: left
-        title: Noise2Void
-        link: https://arxiv.org/abs/1811.10980
-        caption: 2019
-        description: |
-          ## Noise2Void - Learning Denoising from Single Noisy Images
-          __A Krull\*, TO Buchholz\*, F Jug__
+  #     - layout: left
+  #       title: Noise2Void
+  #       link: https://arxiv.org/abs/1811.10980
+  #       caption: 2019
+  #       description: |
+  #         ## Noise2Void - Learning Denoising from Single Noisy Images
+  #         __A Krull\*, TO Buchholz\*, F Jug__
           
-          Noise2Void is a self-supervised image denoising method based on deep learning. It does not require clean 
-          ground truth data for training, instead it can be trained on single noisy images only.
+  #         Noise2Void is a self-supervised image denoising method based on deep learning. It does not require clean 
+  #         ground truth data for training, instead it can be trained on single noisy images only.
   
 
   - title: Teaching & Extracurricular Activities
