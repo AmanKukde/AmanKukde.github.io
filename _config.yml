@@ -50,7 +50,7 @@ content:
         link: https://fmi-faim.github.io/ipa-project-template/
         additional_links:
           - title:  fmi-faim/ipa-project-template
-            icon: fab fa-github
+            # icon: fab fa-github
             url: https://github.com/fmi-faim/ipa-project-template
         quote: >
           | OpenCV,PyTorch,CNN,YOLOv6 | 
@@ -64,7 +64,7 @@ content:
         link: https://github.com/fmi-faim/napari-psf-analysis
         additional_links:
           - title:  fmi-faim/napari-psf-analysis
-            icon: fab fa-github
+            # icon: fab fa-github
             url: https://github.com/fmi-faim/napari-psf-analysis
         quote: >
            | PyTorch, CNNs, 3D U-Net |
