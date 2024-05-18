@@ -46,33 +46,32 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Image Processing & Analysis Project Template
+        title: Automated Licence Plate Recognition System 
         link: https://fmi-faim.github.io/ipa-project-template/
         additional_links:
           - title:  fmi-faim/ipa-project-template
             icon: fab fa-github
             url: https://github.com/fmi-faim/ipa-project-template
         quote: >
-          A template to get your image processing and analysis project started.
+          | OpenCV,PyTorch,CNN,YOLOv6 | 
         description: | # this will include new lines to allow paragraphs
-          Image Processing and Analysis (IPA), transforming raw image data into quantitative measurements, is an 
-          important part of life sciences. This template simplifies the initiation of new IPA projects and streamlines
-          the reorganization of existing ones, contributing to research that is more Findable, Accessible, 
-          Interoperable, and Reusable (FAIR) promoting efficiency, reproducibility, and reliability in life 
-          sciences research.
+          • Built a complete system to extract registration numbers of vehicles from unconstrained real-world images.
+          • Applied YOLOv6 for plate detection, contours-based character segmentation, and CNNs for classification
+          • Handled noise removal, histogram equalization, and perspective transform to resolve image irregularities
+
       - layout: top-middle
-        title: Napari PSF Analysis
+        title: Semantic Segmentation of Brain Tumours in MRI Images
         link: https://github.com/fmi-faim/napari-psf-analysis
         additional_links:
           - title:  fmi-faim/napari-psf-analysis
             icon: fab fa-github
             url: https://github.com/fmi-faim/napari-psf-analysis
         quote: >
-          Inspect the point spread function (PSF) of your microscope.
+           | PyTorch, CNNs, 3D U-Net |
         description: | # this will include new lines to allow paragraphs
-          This plugin is used to analyze the point spread function of microscopes. It provides a simple and easy to use
-          interface, which allows us to quickly assess the state of our microscopes. The quality measurements are are collected
-          and stored in a database, which allows us to track the performance of our microscopes over time.
+          • Implemented various versions of the UNet architecture for brain tumor segmentation in MRI scans (BraTS 2020)
+          • Explored modern CV techniques and ’Attention Mechanism’ to improve segmentation accuracy.
+          • Refined UNet model achieving 60% fewer parameters than the original with superior performance & reduced loss
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -117,14 +116,6 @@ content:
           I am currently enrolled in the integrated dual degree program at the Indian Institute of Technology (BHU), 
           Varanasi. The program combines a bachelor and master degree in biomedical engineering. During my studies I 
           focused on Machine Learning and Artificial Intelligence in the context of biomedical imaging.
-      - layout: left
-        title: Universität Konstanz
-        caption: 2016 - 2017
-        sub_title: M. Sc., Computer Science
-        description: | # this will include new lines to allow paragraphs
-          After completing my four year bachelor studies in computer science at the University of Konstanz I enrolled in
-          the one year master program. During my master studies I focused on the basics of computer vision and image 
-          processing.  
 
   # - title: Selected Publications
   #   layout: list
@@ -161,16 +152,6 @@ content:
   #         Noise2Void is a self-supervised image denoising method based on deep learning. It does not require clean 
   #         ground truth data for training, instead it can be trained on single noisy images only.
   
-
-  - title: Teaching & Extracurricular Activities
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my daily work I am involved in different teaching activities:
-      * [ZIDAS 2024](https://2024.zidas.org/): Co-organizer of the 2024 edition of the ZIDAS summer school.
-      * [ZIDAS 2023](https://2023.zidas.org/): Co-organizer of the 2023 edition of the ZIDAS summer school.
-      * [ZIDAS 2022](https://2022.zidas.org/): Co-organizer of the 2022 edition of the ZIDAS summer school.
-      * 2019 Dresden Senioren Akademie: Wie können lernende Algorithmen unsichtbare Inhalte in mikroskopischen Bildern sichtbar machen?
-      * 2019 Output DD: Computer Vision Meets Biology - Basic Research Requires Open Source Solutions
 
 # Footer
 footer_show_references: true
