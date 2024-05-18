@@ -80,7 +80,7 @@ content:
       - layout: left
         title: Master’s Thesis Internship
         link: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://humantechnopole.it/en/research-groups/jug-group/&ved=2ahUKEwj_isu2opiGAxU7h_0HHfVfBDQQFnoECA0QAQ&usg=AOvVaw2lnOkZh76YH7S9EPexzaTJ
-        link_text: Supervisor: Dr. Florian Jug
+        link_text: Supervisor - Dr. Florian Jug
         sub_title: Human Technopole, Milan, Italy
         caption: Jan 2024 - July 2024
         description: | # this will include new lines to allow paragraphs
@@ -90,7 +90,7 @@ content:
       - layout: left
         title: Research Intern
         link: http://www.speder-lab.com
-        link_text: Supervisor: Dr. Pauline Spéder
+        link_text: Supervisor - Dr. Pauline Spéder
         sub_title: Institut Pasteur, Paris, France
         caption: May 2022 - July 2022
         description: | # this will include new lines to allow paragraphs
