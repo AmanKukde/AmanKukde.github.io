@@ -100,9 +100,9 @@ content:
         sub_title: LifeSignals India Pvt. Ltd., Bangalore, India
         caption: Jan 2022 - Feb 2023
         description: | # this will include new lines to allow paragraphs
-        Predicted Blood Pressure from real-world ECG and PPG data acquired from the company's wearable product.
-        Clustered patients together based on demographics, disorders, medication and signal data features for modelling BP.
-        Developed end-to-end pipeline for data-scraping, preprocessing, model training and generation of reports.
+          Predicted Blood Pressure from real-world ECG and PPG data acquired from the company's wearable product.
+          Clustered patients together based on demographics, disorders, medication and signal data features for modelling BP.
+          Developed end-to-end pipeline for data-scraping, preprocessing, model training and generation of reports.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
