@@ -19,7 +19,7 @@
             {% endfor %}
         </p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content" style="text-align: center;"> <!-- Added inline style for text alignment -->
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content d-flex justify-content-center"> <!-- Added 'd-flex justify-content-center' class here -->
         {%- if item.quote -%}
         <p class="quote">{{ item.quote }}</p>
         {%- endif -%}
