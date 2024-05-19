@@ -45,7 +45,7 @@ content:
 
       - layout: left
         title: Semantic Segmentation of Brain Tumours in MRI Images
-        sub_title: \| PyTorch, CNNs, 3D U-Net|
+        sub_title: ~ PyTorch, CNNs, 3D U-Net ~
         description: | # this will include new lines to allow paragraphs
           • Implemented various versions of the UNet architecture for brain tumor segmentation in MRI scans (BraTS 2020). <br>
           • Explored modern CV techniques and ’Attention Mechanism’ to improve segmentation accuracy. <br>
@@ -53,13 +53,13 @@ content:
 
       - layout: left
         title: Cardiac Disease Detection using ECG
-        sub_title: \| Signal Processing, Keras, CNNs, XAi |
+        sub_title: | Signal Processing, Keras, CNNs, XAi |
         description: | # this will include new lines to allow paragraphs
           • Utilized BeautifulSoup for scraping patients’ ECG data and implemented heartbeat detection & signal de-noising techniques in Python. <br>
           • Constructed a 1D CNN model achieving 98% sensitivity, while also integrating GradCAM for model interpretability. <br>
 
       - layout: left
-        title: \| Automated German Traffic Signs Recognition |
+        title: Automated German Traffic Signs Recognition
         sub_title:  PyTorch, CNNs, STNs, XAi
         description: | # this will include new lines to allow paragraphs
           • Built an image classifier using Spatial Transformer Networks (STNs) and CNNs for the GTSRB dataset. <br>
