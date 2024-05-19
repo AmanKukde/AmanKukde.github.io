@@ -53,7 +53,7 @@ content:
 
       - layout: left
         title: Cardiac Disease Detection using ECG
-        sub_title: | Signal Processing, Keras, CNNs, XAi |
+        sub_title: Signal Processing, Keras, CNNs, XAi |
         description: | # this will include new lines to allow paragraphs
           • Utilized BeautifulSoup for scraping patients’ ECG data and implemented heartbeat detection & signal de-noising techniques in Python. <br>
           • Constructed a 1D CNN model achieving 98% sensitivity, while also integrating GradCAM for model interpretability. <br>
