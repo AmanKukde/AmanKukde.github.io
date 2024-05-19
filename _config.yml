@@ -35,7 +35,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: centre
         title: Automated Licence Plate Recognition System 
         link: https://fmi-faim.github.io/ipa-project-template/
         additional_links:
