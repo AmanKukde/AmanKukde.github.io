@@ -67,15 +67,15 @@ content:
           <b>Exploring Stem Cell Behavior and Genetic Control in Drosophila Using Advanced Ablation Techniques</b><br>
           <br>• Quantified Cortical tension in brain cells of fruit flies using microscopy and computational techniques.
           <br>• Developed end-to-end Jupyter notebook to segment cells and also track ablated cell membrane in 4D stacks.
-      - layout: left
+      - layout: top-middle
         title: Biomedical Data Science Intern
         link: http://www.lifesignals.com
         link_text: Website
         sub_title: LifeSignals India Pvt. Ltd., Bangalore, India
+        qoute: "<b>Automated Blood Pressure Prediction using Real World ECG & PPG BioSensor Data of ICU patients</b>"
         caption: Jan 2022 - Feb 2023
-        description: | # this will include new lines to allow paragraphs
-          <b>Automated Blood Pressure Prediction using Real World ECG & PPG BioSensor Data of ICU patients</b><br>
-          <br>• Clustered patients based on demographics, disorders, medication and signal data features for modelling BP.
+        description: |
+          • Clustered patients based on demographics, disorders, medication and signal data features for modelling BP.
           <br>• Developed end-to-end pipeline for data-scraping, preprocessing, model training and generation of reports.
           <br>• The BP Prediction Module developed was deployed on the BioSensors, significantly aiding care and monitoring.
           
