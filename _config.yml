@@ -35,29 +35,17 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: center
-        title: Automated Licence Plate Recognition System 
-        link: https://fmi-faim.github.io/ipa-project-template/
-        additional_links:
-          - title:  fmi-faim/ipa-project-template
-            # icon: fab fa-github
-            url: https://github.com/fmi-faim/ipa-project-template
-        quote: >
-          | OpenCV,PyTorch,CNN,YOLOv6 | 
+      - layout: left
+        title: Automated License Plate Recognition
+        sub_title: OpenCV,PyTorch,CNN,YOLOv6
         description: # this will include new lines to allow paragraphs
           • Built a complete system to extract registration numbers of vehicles from unconstrained real-world images. <br>
           • Applied YOLOv6 for plate detection, contours-based character segmentation, and CNNs for classification. <br>
           • Handled noise removal, histogram equalization, and perspective transform to resolve image irregularities. <br>
 
-      - layout: middle
+      - layout: left
         title: Semantic Segmentation of Brain Tumours in MRI Images
-        link: https://github.com/fmi-faim/napari-psf-analysis
-        additional_links:
-          - title:  fmi-faim/napari-psf-analysis
-            # icon: fab fa-github
-            url: https://github.com/fmi-faim/napari-psf-analysis
-        quote: >
-           | PyTorch, CNNs, 3D U-Net |
+        subtitle: PyTorch, CNNs, 3D U-Net
         description: | # this will include new lines to allow paragraphs
           • Implemented various versions of the UNet architecture for brain tumor segmentation in MRI scans (BraTS 2020). <br>
           • Explored modern CV techniques and ’Attention Mechanism’ to improve segmentation accuracy. <br>
