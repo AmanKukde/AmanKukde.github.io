@@ -40,9 +40,9 @@ content:
         caption: 2019 - 2024
         sub_title: Integrated Dual Degree (B.Tech + M.Tech), Biomedical Engineering
         description: | # this will include new lines to allow paragraphs 
-        The course structure of this programme is designed to provide a strong foundation in both engineering and biological sciences. <br>
-        The curriculum includes courses in Mechanobiolgy, Regenerative Medicine, Medical Imaging, and Signal Processing and AI <br>
-        During my studies I focused on Machine Learning and Artificial Intelligence in the context of biomedical imaging for my Master's Thesis. <br>
+          The course structure of this programme is designed to provide a strong foundation in both engineering and biological sciences. <br>
+          The curriculum includes courses in Mechanobiolgy, Regenerative Medicine, Medical Imaging, and Signal Processing and AI <br>
+          During my studies I focused on Machine Learning and Artificial Intelligence in the context of biomedical imaging for my Master's Thesis. <br>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
