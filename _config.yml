@@ -49,7 +49,7 @@ content:
           • Applied YOLOv6 for plate detection, contours-based character segmentation, and CNNs for classification. <br>
           • Handled noise removal, histogram equalization, and perspective transform to resolve image irregularities. <br>
 
-      - layout: top-center
+      - layout: middle
         title: Semantic Segmentation of Brain Tumours in MRI Images
         link: https://github.com/fmi-faim/napari-psf-analysis
         additional_links:
