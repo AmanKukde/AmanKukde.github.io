@@ -26,7 +26,7 @@ about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   ⬩Hi, my name is Aman Kukde and I'm a Biomedical Data Scientist. <br>
-  ⬩My research interests include Machine Learning, Computer Vision, and Biomedical Data Science. 
+  ⬩My research interests include Machine Learning, Computer Vision, and Biomedical Data Science.<br> 
   <br> I am currently seeking PhD position in the field of <b>'Applications of Deep Learning for Biomedical Imaging'<b>
   
 
@@ -40,9 +40,9 @@ content:
         caption: 2019 - 2024
         sub_title: (B.Tech + M.Tech), Biomedical Engineering
         description: | # this will include new lines to allow paragraphs 
-          The course structure of this programme is designed to provide a strong foundation in both engineering and biological sciences. <br>
-          The curriculum includes courses in Mechanobiolgy, Regenerative Medicine, Medical Imaging, and Signal Processing and AI <br>
-          During my studies I focused on Machine Learning and Artificial Intelligence in the context of biomedical imaging for my Master's Thesis. <br>
+          - The course structure of this programme is designed to provide a strong foundation in both engineering and biological sciences. <br>
+          - The curriculum includes courses in Mechanobiolgy, Regenerative Medicine, Medical Imaging, and Signal Processing and AI <br>
+          - During my studies I focused on Machine Learning and Artificial Intelligence in the context of biomedical imaging for my Master's Thesis. <br>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -54,7 +54,7 @@ content:
         sub_title: Human Technopole, Milan, Italy
         caption: Jan 2024 - July 2024
         description: | # this will include new lines to allow paragraphs
-          <b>MambaFI: Image Reconstruction using sequential 2D Fourier representation of images.<b><br>
+          <b>MambaFI: Image Reconstruction using sequential 2D Fourier representation of images.<br>
           <br>• Extended methodology with SSMs like Mamba, explored novel token encoding, and hybridized architectures.
           <br>• Achieved faster inference times and reduced GPU memory requirements than existing Attention based model
       - layout: left
@@ -64,7 +64,7 @@ content:
         sub_title: Institut Pasteur, Paris, France
         caption: May 2022 - July 2022
         description: | # this will include new lines to allow paragraphs
-          <b>Exploring Stem Cell Behavior and Genetic Control in Drosophila Using Advanced Ablation Techniques<b><br>
+          <b>Exploring Stem Cell Behavior and Genetic Control in Drosophila Using Advanced Ablation Techniques<br>
           <br>• Quantified Cortical tension in brain cells of fruit flies using microscopy and computational techniques.
           <br>• Developed end-to-end Jupyter notebook to segment cells and also track ablated cell membrane in 4D stacks.
       - layout: left
@@ -74,9 +74,11 @@ content:
         sub_title: LifeSignals India Pvt. Ltd., Bangalore, India
         caption: Jan 2022 - Feb 2023
         description: | # this will include new lines to allow paragraphs
-          • Predicted Blood Pressure from real-world ECG and PPG data acquired from the company's wearable product.
+          <b>Automated Blood Pressure Prediction using Real World ECG & PPG BioSensor Data of ICU patients<br>
           <br>• Clustered patients based on demographics, disorders, medication and signal data features for modelling BP.
           <br>• Developed end-to-end pipeline for data-scraping, preprocessing, model training and generation of reports.
+          <br>• The BP Prediction Module developed was deployed on the BioSensors, significantly aiding care and monitoring.
+          
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
