@@ -25,8 +25,8 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Aman Kukde and I'm a Biomedical Data Scientist. I graduated from the Indian Institute of Technology (BHU), Varanasi, with a GPA of 8.96. 
-  <br>My academic journey has been enriched by internships at prestigious institutions, under 'Industry Leaders' of their respective fields. <br> These experiences have equipped me with both wet lab and computational skills relevant to the field of Biomedical Engineering. <br>
+  ⬩Hi, my name is Aman Kukde and I'm a Biomedical Data Scientist. I graduated from the Indian Institute of Technology (BHU), Varanasi, with a GPA of 8.96. 
+  <br>⬩My academic journey has been enriched by internships at prestigious institutions, under 'Industry Leaders' of their respective fields. <br>⬩These experiences have equipped me with both wet lab and computational skills relevant to the field of Biomedical Engineering. <br>
   My research interests include Machine Learning, Computer Vision, and Biomedical Data Science. <br> I am currently seeking PhD position in the field of <b>'Applications of Deep Learning for Biomedical Imaging'<b>
   
 
@@ -100,7 +100,7 @@ content:
         title: Cardiac Disease Detection using ECG
         sub_title: ~ Signal Processing, Keras, CNNs, XAi ~
         description: | # this will include new lines to allow paragraphs
-          • Scraped patients’ ECG data and processed it by denoising it followed by detecting heartbeat locations <br>
+          • Scraped patients’ ECG data and processed it by denoising it followed by detecting heartbeat locations. <br>
           • Constructed a 1D CNN model achieving 98% sensitivity, while also integrating GradCAM for model interpretability. <br>
 
       - layout: left
