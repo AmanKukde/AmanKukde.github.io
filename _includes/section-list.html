@@ -1,5 +1,5 @@
 {% for item in include.content %}
-<div class="row clearfix layout layout-{{item.layout | default: 'middle'}} border-{{item.border | default: 'no'}}">
+<div class="row clearfix layout layout-{{item.layout | default: 'top-middle'}} border-{{item.border | default: 'no'}}">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
         <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
         {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
@@ -20,19 +20,16 @@
         </p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"> <!-- Removed previous attempt and added 'content' class -->
-        <div class="d-flex justify-content-center"> <!-- Added a wrapper with d-flex and justify-content-center -->
-            <div style="width: 50%;"> <!-- Added a div with a specific width to center content -->
+        <div class="row">
+            <div class="col-md-3"></div> <!-- Empty column for spacing -->
+            <div class="col-md-6"> <!-- Column for the main content -->
                 {% if item.quote %}
                 <p class="quote">{{ item.quote }}</p>
                 {% endif %}
-                <p>&nbsp;</p> <!-- Dummy content -->
-                <p>&nbsp;</p> <!-- Dummy content -->
                 {{ item.description | strip | markdownify }}
-                <!-- <p>&nbsp;</p> Dummy content -->
             </div>
+            <div class="col-md-3"></div> <!-- Empty column for spacing -->
         </div>
     </div>
 </div>
 {% endfor %}
-
-
