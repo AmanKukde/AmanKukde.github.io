@@ -26,10 +26,12 @@
                 <p class="quote">{{ item.quote }}</p>
                 {% endif %}
                 <p>&nbsp;</p> <!-- Dummy content -->
-                <p>&nbsp;</p> <!-- Dummy content -->
                 {{ item.description | strip | markdownify }}
+                <p>&nbsp;</p> <!-- Dummy content -->
             </div>
         </div>
     </div>
 </div>
 {% endfor %}
+
+
