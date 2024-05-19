@@ -25,7 +25,7 @@
         {%- endif -%}
         </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content text-center">
-        <p class="text-center">{{ item.description | strip | markdownify }}</p>
+        <p>{{ item.description | strip | markdownify }}</p> 
     </div>
 </div>
 {% endfor %}
