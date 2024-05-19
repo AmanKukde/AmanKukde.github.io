@@ -37,7 +37,7 @@ content:
     content:
       - layout: left
         title: Automated License Plate Recognition
-        sub_title: OpenCV,PyTorch,CNN,YOLOv6
+        sub_title: \| OpenCV,PyTorch,CNN,YOLOv6 |
         description: # this will include new lines to allow paragraphs
           • Built a complete system to extract registration numbers of vehicles from unconstrained real-world images. <br>
           • Applied YOLOv6 for plate detection, contours-based character segmentation, and CNNs for classification. <br>
@@ -45,7 +45,7 @@ content:
 
       - layout: left
         title: Semantic Segmentation of Brain Tumours in MRI Images
-        subtitle: PyTorch, CNNs, 3D U-Net
+        sub_title: \| PyTorch, CNNs, 3D U-Net|
         description: | # this will include new lines to allow paragraphs
           • Implemented various versions of the UNet architecture for brain tumor segmentation in MRI scans (BraTS 2020). <br>
           • Explored modern CV techniques and ’Attention Mechanism’ to improve segmentation accuracy. <br>
@@ -53,14 +53,14 @@ content:
 
       - layout: left
         title: Cardiac Disease Detection using ECG
-        subtitle: Signal Processing, Keras, CNNs, XAi
+        sub_title: \| Signal Processing, Keras, CNNs, XAi |
         description: | # this will include new lines to allow paragraphs
           • Utilized BeautifulSoup for scraping patients’ ECG data and implemented heartbeat detection & signal de-noising techniques in Python. <br>
           • Constructed a 1D CNN model achieving 98% sensitivity, while also integrating GradCAM for model interpretability. <br>
 
       - layout: left
-        title: Automated German Traffic Signs Recognition
-        subtitle:  PyTorch, CNNs, STNs, XAi
+        title: \| Automated German Traffic Signs Recognition |
+        sub_title:  PyTorch, CNNs, STNs, XAi
         description: | # this will include new lines to allow paragraphs
           • Built an image classifier using Spatial Transformer Networks (STNs) and CNNs for the GTSRB dataset. <br>
           • Worked on Model Interpretability and Explainability (XAI) using t-SNE plots and Saliency maps, etc. <br>
