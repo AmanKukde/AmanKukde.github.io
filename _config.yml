@@ -19,51 +19,30 @@ linkedin_username: amankukde
 additional_links:
 - title: Jug Lab, Human Technopole, Milan, Italy 
   icon: fas fa-globe
-  url: https://www.fmi.ch/platforms/platform.html?plt=110
+  url: https://humantechnopole.it/en/research-groups/jug-group/
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Aman Kukde and I am a Biomedical Engineer. I graduated from the Indian Institute of Technology (BHU), Varanasi, with a GPA of 8.96. 
-  My academic journey has been enriched by internships at prestigious institutions such as Human Technopole, Italy and Institut Pasteur, Paris, where I delved into projects ranging from image reconstruction to quantifying cortical tension in brain cells.
-  My passion for research and innovation extends to diverse domains, including biomedical data science and computer vision, as evidenced by projects like automated license plate recognition and cardiac disease detection using ECG. 
-  Alongside my academic pursuits, I've taken on leadership roles, where I organized impactful campaigns on crucial health issues.
+  Hi, my name is Aman Kukde and I'm a Biomedical Data Scientist. I graduated from the Indian Institute of Technology (BHU), Varanasi, with a GPA of 8.96. 
+  My academic journey has been enriched by internships at prestigious institutions, under 'Industry Leaders' of their respective fields. <br> These experiences have equipped me with both wet lab and computational skills relevant to the field of Biomedical Engineering. <br>
+  My research interests include Machine Learning, Computer Vision, and Biomedical Data Science. <br> I am currently seeking PhD position in the field of 'Applications of Deep Learning for Biomedical Imaging'
   
 
 content:
-  - title: Projects # Title for the section
+
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Automated License Plate Recognition
-        sub_title: \| OpenCV,PyTorch,CNN,YOLOv6 |
-        description: # this will include new lines to allow paragraphs
-          • Built a complete system to extract registration numbers of vehicles from unconstrained real-world images. <br>
-          • Applied YOLOv6 for plate detection, contours-based character segmentation, and CNNs for classification. <br>
-          • Handled noise removal, histogram equalization, and perspective transform to resolve image irregularities. <br>
-
-      - layout: left
-        title: Semantic Segmentation of Brain Tumours in MRI Images
-        sub_title: ~ PyTorch, CNNs, 3D U-Net ~
+        title: Indian Institute of Technology (BHU), Varanasi
+        caption: 2019 - 2024
+        sub_title: Integrated Dual Degree (B.Tech + M.Tech), Biomedical Engineering
         description: | # this will include new lines to allow paragraphs
-          • Implemented various versions of the UNet architecture for brain tumor segmentation in MRI scans (BraTS 2020). <br>
-          • Explored modern CV techniques and ’Attention Mechanism’ to improve segmentation accuracy. <br>
-          • Refined UNet model achieving 60% fewer parameters than the original with superior performance & reduced loss. <br>
-
-      - layout: left
-        title: Cardiac Disease Detection using ECG
-        sub_title: Signal Processing, Keras, CNNs, XAi |
-        description: | # this will include new lines to allow paragraphs
-          • Utilized BeautifulSoup for scraping patients’ ECG data and implemented heartbeat detection & signal de-noising techniques in Python. <br>
-          • Constructed a 1D CNN model achieving 98% sensitivity, while also integrating GradCAM for model interpretability. <br>
-
-      - layout: left
-        title: Automated German Traffic Signs Recognition
-        sub_title:  PyTorch, CNNs, STNs, XAi
-        description: | # this will include new lines to allow paragraphs
-          • Built an image classifier using Spatial Transformer Networks (STNs) and CNNs for the GTSRB dataset. <br>
-          • Worked on Model Interpretability and Explainability (XAI) using t-SNE plots and Saliency maps, etc. <br>
+          I am currently enrolled in the integrated dual degree program at the Indian Institute of Technology (BHU), 
+          Varanasi.<br>The program combines a bachelor and master degree in biomedical engineering.<br>During my studies I 
+          focused on Machine Learning and Artificial Intelligence in the context of biomedical imaging.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -90,6 +69,8 @@ content:
           <br>Research paper is in the works and to be submitted imminently**
       - layout: left
         title: Biomedical Data Science Intern
+        link: http://www.lifesignals.com
+        link_text: Website
         sub_title: LifeSignals India Pvt. Ltd., Bangalore, India
         caption: Jan 2022 - Feb 2023
         description: | # this will include new lines to allow paragraphs
@@ -97,17 +78,40 @@ content:
           <br>Clustered patients together based on demographics, disorders, medication and signal data features for modelling BP.
           <br>Developed end-to-end pipeline for data-scraping, preprocessing, model training and generation of reports.
 
-  - title: Education # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Indian Institute of Technology (BHU), Varanasi
-        caption: 2019 - 2024
-        sub_title: Integrated Dual Degree (B.Tech + M.Tech), Biomedical Engineering
+        title: Automated License Plate Recognition
+        sub_title: ~ OpenCV,PyTorch,CNN,YOLOv6 ~
+        description: # this will include new lines to allow paragraphs
+          • Built a complete system to extract registration numbers of vehicles from unconstrained real-world images. <br>
+          • Applied YOLOv6 for plate detection, contours-based character segmentation, and CNNs for classification. <br>
+          • Handled noise removal, histogram equalization, and perspective transform to resolve image irregularities. <br>
+
+      - layout: left
+        title: Semantic Segmentation of Brain Tumours in MRI Images
+        sub_title: ~ PyTorch, CNNs, 3D U-Net ~
         description: | # this will include new lines to allow paragraphs
-          I am currently enrolled in the integrated dual degree program at the Indian Institute of Technology (BHU), 
-          Varanasi.<br>The program combines a bachelor and master degree in biomedical engineering.<br>During my studies I 
-          focused on Machine Learning and Artificial Intelligence in the context of biomedical imaging.
+          • Implemented various versions of the UNet architecture for brain tumor segmentation in MRI scans (BraTS 2020). <br>
+          • Explored modern CV techniques and ’Attention Mechanism’ to improve segmentation accuracy. <br>
+          • Refined UNet model achieving 60% fewer parameters than the original with superior performance & reduced loss. <br>
+
+      - layout: left
+        title: Cardiac Disease Detection using ECG
+        sub_title: ~ Signal Processing, Keras, CNNs, XAi ~
+        description: | # this will include new lines to allow paragraphs
+          • Utilized BeautifulSoup for scraping patients’ ECG data and implemented heartbeat detection & signal de-noising techniques in Python. <br>
+          • Constructed a 1D CNN model achieving 98% sensitivity, while also integrating GradCAM for model interpretability. <br>
+
+      - layout: left
+        title: Automated German Traffic Signs Recognition
+        sub_title: ~ PyTorch, CNNs, STNs, XAi ~
+        description: | # this will include new lines to allow paragraphs
+          • Built an image classifier using Spatial Transformer Networks (STNs) and CNNs for the GTSRB dataset. <br>
+          • Worked on Model Interpretability and Explainability (XAI) using t-SNE plots and Saliency maps, etc. <br>
+
+
 
   # - title: Selected Publications
   #   layout: list
