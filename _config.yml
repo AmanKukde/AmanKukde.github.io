@@ -51,6 +51,20 @@ content:
           • Explored modern CV techniques and ’Attention Mechanism’ to improve segmentation accuracy. <br>
           • Refined UNet model achieving 60% fewer parameters than the original with superior performance & reduced loss. <br>
 
+      - layout: left
+        title: Cardiac Disease Detection using ECG
+        subtitle: Signal Processing, Keras, CNNs, XAi
+        description: | # this will include new lines to allow paragraphs
+          • Utilized BeautifulSoup for scraping patients’ ECG data and implemented heartbeat detection & signal de-noising techniques in Python. <br>
+          • Constructed a 1D CNN model achieving 98% sensitivity, while also integrating GradCAM for model interpretability. <br>
+
+      - layout: left
+        title: Automated German Traffic Signs Recognition
+        subtitle:  PyTorch, CNNs, STNs, XAi
+        description: | # this will include new lines to allow paragraphs
+          • Built an image classifier using Spatial Transformer Networks (STNs) and CNNs for the GTSRB dataset. <br>
+          • Worked on Model Interpretability and Explainability (XAI) using t-SNE plots and Saliency maps, etc. <br>
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
