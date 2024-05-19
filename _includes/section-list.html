@@ -19,11 +19,17 @@
             {% endfor %}
         </p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content d-flex justify-content-center"> <!-- Added 'd-flex justify-content-center' class here -->
-        {%- if item.quote -%}
-        <p class="quote">{{ item.quote }}</p>
-        {%- endif -%}
-        {{ item.description | strip | markdownify }}
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"> <!-- Removed previous attempt and added 'content' class -->
+        <div class="d-flex justify-content-center"> <!-- Added a wrapper with d-flex and justify-content-center -->
+            <div style="width: 50%;"> <!-- Added a div with a specific width to center content -->
+                {% if item.quote %}
+                <p class="quote">{{ item.quote }}</p>
+                {% endif %}
+                <p>&nbsp;</p> <!-- Dummy content -->
+                <p>&nbsp;</p> <!-- Dummy content -->
+                {{ item.description | strip | markdownify }}
+            </div>
+        </div>
     </div>
 </div>
 {% endfor %}
