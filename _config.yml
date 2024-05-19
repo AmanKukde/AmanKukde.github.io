@@ -22,12 +22,12 @@ additional_links:
   url: https://humantechnopole.it/en/research-groups/jug-group/
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Aman Kukde and I'm a Biomedical Data Scientist. I graduated from the Indian Institute of Technology (BHU), Varanasi, with a GPA of 8.96. 
-  My academic journey has been enriched by internships at prestigious institutions, under 'Industry Leaders' of their respective fields. <br> These experiences have equipped me with both wet lab and computational skills relevant to the field of Biomedical Engineering. <br>
-  My research interests include Machine Learning, Computer Vision, and Biomedical Data Science. <br> I am currently seeking PhD position in the field of 'Applications of Deep Learning for Biomedical Imaging'
+  <br>My academic journey has been enriched by internships at prestigious institutions, under 'Industry Leaders' of their respective fields. <br> These experiences have equipped me with both wet lab and computational skills relevant to the field of Biomedical Engineering. <br>
+  My research interests include Machine Learning, Computer Vision, and Biomedical Data Science. <br> I am currently seeking PhD position in the field of <b>'Applications of Deep Learning for Biomedical Imaging'<b>
   
 
 content:
@@ -39,10 +39,10 @@ content:
         title: Indian Institute of Technology (BHU), Varanasi
         caption: 2019 - 2024
         sub_title: Integrated Dual Degree (B.Tech + M.Tech), Biomedical Engineering
-        description: | # this will include new lines to allow paragraphs
-          I am currently enrolled in the integrated dual degree program at the Indian Institute of Technology (BHU), 
-          Varanasi.<br>The program combines a bachelor and master degree in biomedical engineering.<br>During my studies I 
-          focused on Machine Learning and Artificial Intelligence in the context of biomedical imaging.
+        description: | # this will include new lines to allow paragraphs 
+        The course structure of this programme is designed to provide a strong foundation in both engineering and biological sciences. <br>
+        The curriculum includes courses in Mechanobiolgy, Regenerative Medicine, Medical Imaging, and Signal Processing and AI <br>
+        During my studies I focused on Machine Learning and Artificial Intelligence in the context of biomedical imaging for my Master's Thesis. <br>
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -54,7 +54,7 @@ content:
         sub_title: Human Technopole, Milan, Italy
         caption: Jan 2024 - July 2024
         description: | # this will include new lines to allow paragraphs
-          Worked on Master’s Thesis project on Image Reconstruction using sequential 2D Fourier representation of images. 
+          MambaFI: Image Reconstruction using sequential 2D Fourier representation of images.<br>
           <br>Extended methodology with SSMs like Mamba, explored novel token encoding, and hybridized architectures.
           <br>Achieved faster inference times and reduced GPU memory requirements than existing Attention based model
       - layout: left
@@ -65,8 +65,7 @@ content:
         caption: May 2022 - July 2022
         description: | # this will include new lines to allow paragraphs
           Quantified Cortical tension in brain cells of fruit flies using microscopy and computational techniques.
-          <br>Developed end-to-end Jupyter notebook to segment cells and process  the 4D stacks to track ablated cell membrane
-          <br>Research paper is in the works and to be submitted imminently**
+          <br>Developed end-to-end Jupyter notebook to segment cells and also track ablated cell membrane in 4D stacks
       - layout: left
         title: Biomedical Data Science Intern
         link: http://www.lifesignals.com
@@ -75,7 +74,7 @@ content:
         caption: Jan 2022 - Feb 2023
         description: | # this will include new lines to allow paragraphs
           Predicted Blood Pressure from real-world ECG and PPG data acquired from the company's wearable product.
-          <br>Clustered patients together based on demographics, disorders, medication and signal data features for modelling BP.
+          <br>Clustered patients based on demographics, disorders, medication and signal data features for modelling BP.
           <br>Developed end-to-end pipeline for data-scraping, preprocessing, model training and generation of reports.
 
   - title: Projects # Title for the section
@@ -95,13 +94,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           • Implemented various versions of the UNet architecture for brain tumor segmentation in MRI scans (BraTS 2020). <br>
           • Explored modern CV techniques and ’Attention Mechanism’ to improve segmentation accuracy. <br>
-          • Refined UNet model achieving 60% fewer parameters than the original with superior performance & reduced loss. <br>
+          • Refined UNet model by reducing parameters by 60% while achieving superior performance & significantly reduced loss. <br>
 
       - layout: left
         title: Cardiac Disease Detection using ECG
         sub_title: ~ Signal Processing, Keras, CNNs, XAi ~
         description: | # this will include new lines to allow paragraphs
-          • Utilized BeautifulSoup for scraping patients’ ECG data and implemented heartbeat detection & signal de-noising techniques in Python. <br>
+          • Scraped patients’ ECG data and processed it by denoising it followed by detecting heartbeat locations <br>
           • Constructed a 1D CNN model achieving 98% sensitivity, while also integrating GradCAM for model interpretability. <br>
 
       - layout: left
