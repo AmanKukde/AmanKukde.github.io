@@ -26,7 +26,7 @@ about_profile_image: images/profile.jpg
 about_content: |
   ⬩ Biomedical Data Scientist with expertise in AI, Computer Vision, and Biomedical Imaging.<br>
   ⬩ Experience in deep learning applications for medical image analysis, signal processing, and computational biology.<br>
-  ⬩ Currently pursuing a PhD at Human Technopole, Milan, focusing on AI-driven biomedical imaging advancements.<br>
+  ⬩ **Currently pursuing a PhD at Human Technopole, Milan, focusing on AI in Medicine.**
 
 content:
 
@@ -47,18 +47,18 @@ content:
         title: Adhesion-Controlled Mechanics of the Glial Niche
         sub_title: (*Submitted to Cell, Nov 2024)
         description: |
-          • Discovered a new process in brain development where a group of three molecules helps neural stem cells stick to their supporting cells. When these connections are broken, the supporting cells become too tense, leading to errors during cell division and causing damage to the cell’s genetic material.
-          • Used advanced live imaging and precise laser techniques to show how the physical environment affects neural stem cell growth, and developed computer tools to quickly analyze large sets of images, effectively linking lab experiments with data analysis.
+          • Discovered a new process in brain development where a group of three molecules helps neural stem cells stick to their supporting cells. When these connections are broken, the supporting cells become too tense, leading to errors during cell division and causing damage to the cell’s genetic material.<br>
+          • Used advanced live imaging and precise laser techniques to show how the physical environment affects neural stem cell growth, and developed computer tools to quickly analyze large sets of images, effectively linking lab experiments with data analysis.<br>
 
   - title: Experience
     layout: list
     content:
       - layout: left
-        title: Associate - II (United Airlines Project)
-        sub_title: Indus Insights & Analytics, India
+        title: Associate - II 
+        sub_title: "Indus Insights & Analytics, India<br>(Client:United Airlines)"
         caption: July 2024 – Feb 2025
         description: |
-          • Led customer segmentation and predictive modeling, optimizing offers for ~30M users, yielding $20M in revenue.<br>
+          • Led customer segmentation and predictive modeling, optimizing offers for **~30M users**, yielding **$20M** in revenue.<br>
           • Developed scalable ML pipelines, reducing processing time from two weeks to **two hours (96% reduction)**.<br>
 
       - layout: left
