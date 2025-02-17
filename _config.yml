@@ -67,7 +67,7 @@ content:
         caption: Jan 2024 - July 2024
         description: |
           • Winner of **Best Poster Award at HT PhD and PostDoc Symposium 2024**.<br>
-          • Developed a Mamba-based AI model for image super-resolution, improving speed and reducing GPU memory usage.<br>
+          • Developed a MambaSSM-based AI model for image super-resolution, improving speed and reducing GPU memory usage.<br>
           • Integrated Fourier-domain encoding for enhanced biomedical image reconstruction.<br>
 
       - layout: left
