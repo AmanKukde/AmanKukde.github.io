@@ -5,15 +5,14 @@ favicon: images/favicon.ico
 name: Aman Kukde
 title: Biomedical Data Scientist
 email: kukdeaman.dhanraj.bme19@iitbhu.ac.in
-#website: https://tibuch.ch
+#website: https://amankukde.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-github_username:  AmanKukde
+github_username: AmanKukde
 linkedin_username: amankukde
-# orcid_username: 0000-0001-6953-8915
 
 # Additional icon links
 additional_links:
@@ -24,139 +23,104 @@ additional_links:
 # About Section
 about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  ⬩Hi, my name is Aman Kukde and I'm a Biomedical Data Scientist. <br>
-  ⬩My research interests include Machine Learning, Computer Vision, and Biomedical Data Science.<br> 
-  <br> I am currently seeking PhD position in the field of <b>'Applications of Deep Learning for Biomedical Imaging'</b>
-  
+about_content: |
+  ⬩ Biomedical Data Scientist with expertise in AI, Computer Vision, and Biomedical Imaging.<br>
+  ⬩ Experience in deep learning applications for medical image analysis, signal processing, and computational biology.<br>
+  ⬩ Currently pursuing a PhD at Human Technopole, Milan, focusing on AI-driven biomedical imaging advancements.<br>
 
 content:
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: Indian Institute of Technology (BHU), Varanasi
         caption: 2019 - 2024
-        sub_title: (B.Tech + M.Tech), Biomedical Engineering
-        description: | # this will include new lines to allow paragraphs 
-          - The course structure of this programme is designed to provide a strong foundation in both engineering and biological sciences. <br>
-          - The curriculum includes courses in Mechanobiolgy, Regenerative Medicine, Medical Imaging, and Signal Processing and AI <br>
-          - During my studies I focused on Machine Learning and Artificial Intelligence in the context of biomedical imaging for my Master's Thesis. <br>
+        sub_title: (B.Tech + M.Tech), Biomedical Engineering (CGPA: 8.86/10)
+        description: |
+          - Graduated with a CGPA of 8.86/10, specializing in biomedical imaging and AI applications.<br>
+          - Coursework included medical imaging, AI, regenerative medicine, and signal processing.<br>
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
-        title: Master’s Thesis Internship
-        link: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://humantechnopole.it/en/research-groups/jug-group/&ved=2ahUKEwj_isu2opiGAxU7h_0HHfVfBDQQFnoECA0QAQ&usg=AOvVaw2lnOkZh76YH7S9EPexzaTJ
-        link_text: Supervisor - Dr. Florian Jug
+        title: Associate - II (United Airlines Project)
+        sub_title: Indus Insights & Analytics, India
+        caption: July 2024 – Feb 2025
+        description: |
+          • Led customer segmentation and predictive modeling, optimizing offers for ~30M users, yielding $20M in revenue.<br>
+          • Developed scalable ML pipelines, reducing processing time from two weeks to **two hours (96% reduction)**.<br>
+
+      - layout: left
+        title: Master's Thesis Internship
         sub_title: Human Technopole, Milan, Italy
         caption: Jan 2024 - July 2024
-        qoute: >
-          <b>MambaFI: Image Reconstruction using sequential 2D Fourier representation of images.</b>
-        description: | # this will include new lines to allow paragraphs
-          • Extended methodology with SSMs like Mamba, explored novel token encoding, and hybridized architectures.
-          <br>• Achieved faster inference times and reduced GPU memory requirements than existing Attention based model
+        description: |
+          • Winner of **Best Poster Award at HT PhD and PostDoc Symposium 2024**.<br>
+          • Developed a Mamba-based AI model for image super-resolution, improving speed and reducing GPU memory usage.<br>
+          • Integrated Fourier-domain encoding for enhanced biomedical image reconstruction.<br>
+
       - layout: left
-        title: Research Intern
-        link: http://www.speder-lab.com
-        link_text: Supervisor - Dr. Pauline Spéder
-        sub_title: Institut Pasteur, Paris, France
-        caption: May 2022 - July 2022
-        qoute: >
-          <b>Exploring Stem Cell Behavior and Genetic Control in Drosophila Using Advanced Ablation Techniques</b>
-        description: | # this will include new lines to allow paragraphs
-          • Quantified Cortical tension in brain cells of fruit flies using microscopy and computational techniques.
-          <br>• Developed end-to-end Jupyter notebook to segment cells and also track ablated cell membrane in 4D stacks.
-      - layout: left
-        title: Biomedical Data Science Intern
-        link: http://www.lifesignals.com
-        link_text: Website
-        sub_title: LifeSignals India Pvt. Ltd., Bangalore, India
-        qoute: >
-          <b>Automated Blood Pressure Prediction using Real World ECG & PPG BioSensor Data of ICU patients</b>
+        title: Data Scientist Intern
+        sub_title: LifeSignals India Pvt. Ltd., Bangalore
         caption: Jan 2022 - Feb 2023
         description: |
-          • Clustered patients based on demographics, disorders, medication and signal data features for modelling BP.
-          <br>• Developed end-to-end pipeline for data-scraping, preprocessing, model training and generation of reports.
-          <br>• The BP Prediction Module developed was deployed on the BioSensors, significantly aiding care and monitoring.
-          
+          • Developed AI models for cuffless blood pressure prediction using ICU patient ECG & PPG data.<br>
+          • Improved ECG/PPG signal quality by **35%** using advanced filtering and denoising techniques.<br>
+          • Reduced model size by **60%** via knowledge distillation while maintaining **95% accuracy**.<br>
 
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: left
+        title: Research Intern
+        sub_title: Institut Pasteur, Paris, France
+        caption: May 2022 - July 2022
+        description: |
+          • Studied neural stem cell behavior using advanced imaging & laser ablation techniques.<br>
+          • Semi-Automated membrane landmark detection and quantified mechanical tension in brain tissue.<br>
+
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        title: Automated License Plate Recognition
-        sub_title: ~ OpenCV,PyTorch,CNN,YOLOv6 ~
-        description: # this will include new lines to allow paragraphs
-          • Built a complete system to extract registration numbers of vehicles from unconstrained real-world images. <br>
-          • Applied YOLOv6 for plate detection, contours-based character segmentation, and CNNs for classification. <br>
-          • Handled noise removal, histogram equalization, and perspective transform to resolve image irregularities. <br>
-
-      - layout: left
-        title: Semantic Segmentation of Brain Tumours in MRI Images
-        sub_title: ~ PyTorch, CNNs, 3D U-Net ~
-        description: | # this will include new lines to allow paragraphs
-          • Implemented various versions of the UNet architecture for brain tumor segmentation in MRI scans (BraTS 2020). <br>
-          • Explored modern CV techniques and ’Attention Mechanism’ to improve segmentation accuracy. <br>
-          • Refined UNet model by reducing parameters by 60% while achieving superior performance & significantly reduced loss. <br>
+        title: Semantic Segmentation of Brain Tumours
+        sub_title: ~ PyTorch, U-Net, Attention U-Net ~
+        description: |
+          • Improved UNet-based tumor segmentation models, reducing loss by **50%** and model size by **45% (~3M params)**.<br>
+          • Integrated attention mechanisms to enhance feature extraction in MRI images.<br>
 
       - layout: left
         title: Cardiac Disease Detection using ECG
-        sub_title: ~ Signal Processing, Keras, CNNs, XAi ~
-        description: | # this will include new lines to allow paragraphs
-          • Scraped patients’ ECG data and processed it by denoising it followed by detecting heartbeat locations.<br>
-          • Constructed a 1D CNN model achieving 98% sensitivity, while also integrating GradCAM for model interpretability. <br>
+        sub_title: ~ Signal Processing, CNNs, XAi ~
+        description: |
+          • Developed ECG classification model achieving **98% sensitivity, 96% specificity, and 97% accuracy**.<br>
+          • Applied advanced filtering & heartbeat detection for signal preprocessing.<br>
+
+  - title: Publications
+    layout: list
+    content:
+      - layout: left
+        title: Adhesion-Controlled Mechanics of the Glial Niche
+        sub_title: (*Submitted to Cell, Nov 2024)
+        description: |
+          • Investigated the role of adhesion molecules in neural stem cell regulation using computational imaging techniques.<br>
+
+  - title: Additional Activities
+    layout: list
+    content:
+      - layout: left
+        title: International Hackathons
+        sub_title: Ai4Life Hackathon | Germany, Mar ’24 ; Spain, June ’24
+        description: |
+          • Enhanced BioImageIO model uploader wrapper, resolving deployment issues & improving efficiency.<br>
 
       - layout: left
-        title: Automated German Traffic Signs Recognition
-        sub_title: ~ PyTorch, CNNs, STNs, XAi ~
-        description: | # this will include new lines to allow paragraphs
-          • Built an image classifier using Spatial Transformer Networks (STNs) and CNNs for the GTSRB dataset. <br>
-          • Worked on Model Interpretability and Explainability (XAI) using t-SNE plots and Saliency maps, etc. <br>
-
-
-
-  # - title: Selected Publications
-  #   layout: list
-  #   content:
-  #     - layout: left
-  #       title: N2V2
-  #       link: https://arxiv.org/abs/2211.08512
-  #       caption: 2022
-  #       description: |
-  #         ## N2V2 - Fixing Noise2Void Checkerboard Artifacts with Modified Sampling Strategies and a Tweaked Network Architecture
-  #         __E Höck\*, TO Buchholz\*, A Brachmann, F Jug, A Freytag__
-          
-  #         Noise2Void 2 (N2V2) fixes the checkerboard artifacts that are present in some Noise2Void (N2V) denoised images.
-
-  #     - layout: left
-  #       title: cryoCARE
-  #       link: https://arxiv.org/abs/1810.05420
-  #       caption: 2019
-  #       description: |
-  #         ## cryoCARE - Content-Aware Image Restoration for Cryo-Transmission Electron Microscopy Data
-  #         __TO Buchholz, M Jordan, G Pigino, F Jug__
-          
-  #         Even highest quality cryo-EM data is inherently noisy and suffers from low contrast. With cryoCARE we present 
-  #         a deep learning-based approach to denoise and improve contrast in cryo-EM data.
-
-  #     - layout: left
-  #       title: Noise2Void
-  #       link: https://arxiv.org/abs/1811.10980
-  #       caption: 2019
-  #       description: |
-  #         ## Noise2Void - Learning Denoising from Single Noisy Images
-  #         __A Krull\*, TO Buchholz\*, F Jug__
-          
-  #         Noise2Void is a self-supervised image denoising method based on deep learning. It does not require clean 
-  #         ground truth data for training, instead it can be trained on single noisy images only.
-  
+        title: Teaching & Volunteering
+        sub_title: IIT BHU & EMBO DL4MIA Course
+        description: |
+          • Assisted in deep learning courses and image processing workshops at IIT BHU and Human Technopole.<br>
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 sass:
   sass_dir: _sass
